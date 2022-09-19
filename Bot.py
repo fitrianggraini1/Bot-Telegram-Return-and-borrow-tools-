@@ -83,15 +83,15 @@ def action_help(message: types.Message):
   first_name = message.chat.first_name
   last_name = message.chat.last_name
   bot.send_message(message.chat.id, '''
-Hi {} {}, ini list command yaa
-/start --> Memulai Proses Pencarian
-/datanest --> Menampilkan Nest yang tersedia
-/mynest --> Menampilkan Nest yang di pinjam
-/ambil --> Proses Pengambilan Nest
-/kembali --> Proses Pengembalian Nest
-/akun --> Cek Akun Pengguna
-/help --> Melihat Daftar Perintah
-'''.format(first_name,last_name))
+  Hi {} {}, ini list command yaa
+  /start --> Memulai Proses Pencarian
+  /datanest --> Menampilkan Nest yang tersedia
+  /mynest --> Menampilkan Nest yang di pinjam
+  /ambil --> Proses Pengambilan Nest
+  /kembali --> Proses Pengembalian Nest
+  /akun --> Cek Akun Pengguna
+  /help --> Melihat Daftar Perintah
+  '''.format(first_name,last_name))
 
 @bot.message_handler(commands=['kembali'])
 def datakembali (message):
@@ -169,12 +169,12 @@ def action_id(message):
 
 
   bot.send_message(message.chat.id, '''
-Hallo, ini Detail Akun kamu
-UserNama Telegram = {} {}
-ID Telegram= {}
-Nama = {}
-KPK = {}
-'''.format(first_name,last_name, id_telegram,hasil_sql,hasil_sql1).replace(","," ").replace("'","").replace(")","").replace("(",""))
+  Hallo, ini Detail Akun kamu
+  UserNama Telegram = {} {}
+  ID Telegram= {}
+  Nama = {}
+  KPK = {}
+  '''.format(first_name,last_name, id_telegram,hasil_sql,hasil_sql1).replace(","," ").replace("'","").replace(")","").replace("(",""))
 
 @bot.message_handler(regexp='Register')
 def kb_answer(message):
