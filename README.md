@@ -8,7 +8,7 @@ Overview of the Bot
 
 Borrow nest Tools
 
-System borroe automatic display nest tool that suitable with the toy
+System borrow automatic display nest tool that suitable with the toy
 
 ![image](https://user-images.githubusercontent.com/73011239/190969308-f804190e-c2fe-4821-9f31-55950945bae7.png)
 
