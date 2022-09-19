@@ -14,7 +14,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 user_dict={}
 
-conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=APCKRMPTMD01TV,41433;DATABASE=Namlos;UID=Namlos_user;PWD=Namlos@123')
+conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=;DATABASE=;UID=;PWD=')
 cursor = conn.cursor()
 
 api = '5311243076:AAEwrHU6lfgmM0vN6z-xQRMP25ZLpr4HORc'
